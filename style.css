@@ -1,0 +1,371 @@
+body {
+    background-color: #000000;
+    font-family: 'Basic', sans-serif;
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Noto Serif', serif;
+}
+
+@font-face {
+    font-family: Basic;
+    src: url(fonts/Basic/Basic-Regular.ttf);
+}
+
+@font-face {
+    font-family: Molengo;
+    src: url(fonts/Molengo/Molengo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Noto Serif;
+    src: url(fonts/Noto_Serif/NotoSerif-Regular.ttf);
+}
+
+nav {
+    height: 38px;
+    width: 100%;
+    background-color: #171717;
+    border-bottom: solid 2px;
+    border-bottom-color: #000000;
+    z-index: 20;
+    font-family: Molengo;
+}
+
+.navconhome {
+    max-height: 34px;
+    margin-bottom: -10px;
+    margin-top: -6px;
+    margin-left: -5px;
+    margin-right: -5px; 
+    display: inline-block;
+}
+
+.navconhat {
+    max-height: 40px;
+    margin-bottom: -10px;
+    margin-top: -6px;
+    margin-left: -5px;
+    margin-right: -5px; 
+    display: inline-block;
+}
+
+.navconcase {
+    max-height: 34px;
+    margin-bottom: -4px;
+    margin-top: -4px;
+    display: inline-block;
+}
+
+.navcont {
+    max-height: 24px;
+    margin-bottom: -4px;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.navcontain {
+    height: 36px;
+    margin-left: 8.5%;
+    overflow: hidden;
+}
+
+.navtext {
+    margin-left: 5px;
+    margin-top: -2px;
+    padding-top: -5px;
+    display: inline-block;
+    vertical-align: text-top;
+    font-family: 'Noto Serif';
+}
+
+.navcareercor {
+    margin-top: -3px;
+}
+
+.btn-group {
+    padding-top: 2px;
+    border: none;
+}
+
+.btn {
+    width: 150px;
+    text-align: center;
+    align-content: center;
+}
+
+.btn-primary {
+    background-color: #2c2c2c;
+    color: #d3d3d3;
+    border: none;
+    text-align: center;
+}
+
+.cartertitle {
+    color: #e6e6e6;
+    position: absolute;
+    left: 7.5%;
+    top: 300px;
+    font-size: 6em;
+    font-family: Noto Serif;
+    text-align: center;
+}
+
+.mattleftfadeimg {
+    position: absolute;
+    top: 108px;
+    right: 0%;
+    background-image: url(images/carter_hires.png);
+    max-height: 700px;
+    height: 650px;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: -69px;
+    z-index: 1;
+    }
+
+.overviewtext {
+    position: absolute;
+    background-color: #171717;
+    width: 100%;
+    height: 100%;
+    max-height: 290px;
+    top: 695px;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #e6e6e6;
+    font-family: Molengo;
+}
+
+.bodytext {
+    font-size: 1.3em;
+    color: #a7a7a7;
+    font-family: Basic;
+}
+
+.referencetext {
+    text-align: center;
+    color: #585858;
+}
+
+.careertitle {
+    color: #e6e6e6;
+    font-size: 6em;
+    font-family: Noto Serif;
+    text-align: center;
+}
+
+.newyorkimg {
+    position: absolute;
+    top: 240px;
+    right: 0%;
+    background-image: url(images/newyork.png);
+    background-repeat: no-repeat;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+    max-width: 700px;
+    margin-top: -79px;
+    z-index: 1;
+}
+
+.londonimg {
+    position: absolute;
+    top: 240px;
+    right: 23%;
+    background-image: url(images/london.png);
+    background-repeat: no-repeat;
+    max-height: 400px;
+    height: 300px;
+    width: 500px;
+    max-width: 700px;
+    margin-top: -79px;
+    z-index: 1;
+}
+
+.newyorktextbox {
+    position: absolute;
+    background-color: #171717;
+    width: 100%;
+    height: 300px;
+    top: 174px;
+    margin-top: -13px;
+    margin-bottom: -3px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.newyorktext {
+    font-size: 1.3em;
+    color: #a7a7a7;
+    font-family: Basic;
+    max-width: 800px
+}
+
+.leftboxcareer {
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    padding-right: 100px;
+}
+
+.bitstreamtextbox {
+    position: absolute;
+    background-color: #171717;
+    width: 100%;
+    height: 540px;
+    top: 478px;
+    margin-top: -13px;
+    margin-bottom: -3px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.bitstreamtext {
+    font-size: 1.3em;
+    color: #a7a7a7;
+    font-family: Basic;
+    max-width: 1000px
+}
+.bitstreamimg {
+    position: absolute;
+    top: 600px;
+    left: 5%;
+    background-repeat: no-repeat;
+    max-height: 400px;
+    height: 500px;
+    width: 500px;
+    max-width: 700px;
+    margin-top: -69px;
+    z-index: 1;
+    background-image: url(images/Bitstream_logo.png);
+    
+}
+
+.referencetextedu {
+    width: 1000px;
+    text-align: center;
+    color: #585858;
+}
+
+.edutitle {
+    color: #e6e6e6;
+    font-size: 6em;
+    font-family: Noto Serif;
+    text-align: center;
+}
+
+.typefoundryimg {
+    position: absolute;
+    top: 240px;
+    right: 0%;
+    background-image: url(images/typefoundry.png);
+    background-repeat: no-repeat;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+    max-width: 700px;
+    margin-top: -79px;
+    z-index: 1;
+}
+
+.typefoundrytextbox {
+    position: absolute;
+    background-color: #171717;
+    width: 100%;
+    height: 300px;
+    top: 174px;
+    margin-top: -13px;
+    margin-bottom: -3px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.typefoundrytext {
+    font-size: 1.3em;
+    color: #a7a7a7;
+    font-family: Basic;
+    max-width: 1000px
+}
+
+.leftboxedu {
+    position: absolute;
+    top: 30px;
+    left: 28%;
+    padding-right: 100px;
+}
+
+.johtextbox {
+    position: absolute;
+    background-color: #171717;
+    width: 100%;
+    height: 460px;
+    top: 478px;
+    margin-top: -13px;
+    margin-bottom: -3px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.johtext {
+    font-size: 1.3em;
+    color: #a7a7a7;
+    font-family: Basic;
+    max-width: 1300px
+}
+.punchcutterimg {
+    position: absolute;
+    top: 534px;
+    left: -30px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    max-height: 460px;
+    height: 800px;
+    width: 500px;
+    max-width: 700px;
+    margin-top: -69px;
+    z-index: 1;
+    background-image: url(images/punchcutter.png);
+}
+
+.typetitle {
+    color: #e6e6e6;
+    font-size: 6em;
+    font-family: Noto Serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.typefacerow {
+    margin-top: 50px;
+    overflow: hidden;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.typefaces {
+    margin-top: 50px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.typographytext {
+    font-size: 1.3em;
+    color: #a7a7a7;
+    font-family: Basic;
+}
+
+.martop {
+    margin-top: 70px;
+}
+
+.typeimg {
+    margin-top: 20px;
+}
